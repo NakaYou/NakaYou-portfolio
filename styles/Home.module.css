@@ -44,31 +44,19 @@
 }
 
 .links{
-  font-size: 30px;
-  padding:20px;
+  font-size: 3vw;
+  font-weight: 300;
   color:white;
-  
+  border:1px solid;
+  border-radius: 5%;
+  padding: 1vw;
 }
 
 .links:hover{
-  border:1px solid;
   text-decoration: none;
   color: cyan;
 }
-
-.links2{
-  font-size: 30px;
-  padding:20px;
-  color:white;
-  
-}
-
-.links2:hover{
-  border:1px solid;
-  text-decoration: none;
-  color:magenta;
-}
 .navbar{
-  padding:50px;
-  text-align: left;
+  padding:2vw;
+  text-align: center;
 }
