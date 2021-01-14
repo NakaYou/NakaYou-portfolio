@@ -20,7 +20,8 @@ export default function Profile() {
                 <p>Depertment:S</p>
                 <p>Club:ComputerClub</p>
                 <h1>Experimence</h1>
-                <p>C/C++/Java/Python/HTML/CSS/JavaScript/TypeScript/React/Next.js/Unity/Git/GitHub:Little</p>
+                <p>C/C++/Java/Python/HTML/CSS/JavaScript/</p>
+                <p>TypeScript/React/Next.js/Unity/Git/GitHub:Little</p>
                 <h1>Studying</h1>
                 <p>Basic information engineer/AWS/etc:Much</p>
             </div>
