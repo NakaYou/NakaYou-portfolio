@@ -74,12 +74,9 @@
 }
 
 .blogTitles{
-  font-size: 2vw;
-  text-align: center;
+  font-size: 3vw;
   border: 0.1vh solid;
   padding:1vw;
-  width:30vw;
-  height:20vh;
   margin:1vh;
 }
 
