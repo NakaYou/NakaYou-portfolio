@@ -24,7 +24,7 @@ export default function Blog({ allPostsData }) {
             <ul className={styles.inline}>
                 {allPostsData.map(({ id,date, title }) => (
                     <li className={styles.blogTitles} key={id}>
-                        {date}
+                        <div className={styles.date} >{date}</div>
                         <Link href={`/posts/${id}`}>
                         <h1>{title}</h1>
                         </Link>
