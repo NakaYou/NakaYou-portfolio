@@ -13,14 +13,14 @@
   font-weight: 300;
   font-size: 20px;
   margin: 20px;
-  animation: fadeIn 1s ease 0s 1 normal;
+  animation: fadeIn 3s ease 0s 1 normal;
 }
 
 .page{
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 20px;
   font-weight: 200;
-  height: 2000px;
+  margin-bottom: 100px;;
   background-color: black;
   min-height: 100vh;
   text-align: center;
@@ -30,12 +30,11 @@
 .page h1{
   margin-top: 50px;
   font-weight: 100;
-  text-decoration: underline;
-  color:magenta;
+  color:cyan;
 }
 
 .page h1:hover{
-  color:cyan;
+  color:magenta;
 }
 
 .NakaYou{
@@ -48,7 +47,7 @@
   font-weight: 300;
   color:white;
   border:0.1vh solid;
-  border-radius: 5%;
+  margin:0.5vw;
   padding: 1vw;
 }
 
@@ -57,6 +56,37 @@
   color: cyan;
 }
 .navbar{
+  margin-top: 5vh;
   padding:2vw;
   text-align: center;
+}
+
+.page ul {
+  list-style: none;
+}
+
+.page li{
+  float: left;
+}
+
+.blogTitles:hover{
+  color:cyan;
+}
+
+.blogTitles{
+  font-size: 2vw;
+  text-align: center;
+  border: 0.1vh solid;
+  padding:1vw;
+  width:30vw;
+  height:20vh;
+  margin:1vh;
+}
+
+.blogTitle:hover{
+  color:magenta;
+}
+
+.blog{
+  color:white;
 }
