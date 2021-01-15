@@ -73,9 +73,10 @@
 }
 
 .blogTitles{
-  font-size: 3vw;
+  font-size: 5vh;
+  border: 0.1vh solid;
   padding:1vw;
-  margin:1vh;
+  margin:5vh;
 }
 
 
@@ -84,10 +85,3 @@
   color:white;
 }
 
-.inline{
-  text-align: center;
-}
-
-.inline li{
-  display: inline;
-}
