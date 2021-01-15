@@ -66,7 +66,6 @@
 }
 
 .page li{
-  float: left;
 }
 
 .blogTitles:hover{
@@ -75,15 +74,20 @@
 
 .blogTitles{
   font-size: 3vw;
-  border: 0.1vh solid;
   padding:1vw;
   margin:1vh;
 }
 
-.blogTitle:hover{
-  color:magenta;
-}
+
 
 .blog{
   color:white;
+}
+
+.inline{
+  text-align: center;
+}
+
+.inline li{
+  display: inline;
 }

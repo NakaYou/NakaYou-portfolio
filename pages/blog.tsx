@@ -21,13 +21,13 @@ export default function Blog({ allPostsData }) {
                 <link rel="icon" href="/favicon.ico"></link>
             </Head>
             <Navbar />
-            <ul>
+            <ul className={styles.inline}>
                 {allPostsData.map(({ id,date, title }) => (
                     <li className={styles.blogTitles} key={id}>
                         {date}
                         <br />
                         <Link href={`/posts/${id}`}>
-                        <div className={styles.blogTitle}>{title}</div>
+                        <h1>{title}</h1>
                         </Link>
                     </li>
                 ))}
