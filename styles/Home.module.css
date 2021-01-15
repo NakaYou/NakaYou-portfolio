@@ -66,6 +66,7 @@
 }
 
 .page li{
+  float: left;
 }
 
 .blogTitles:hover{
@@ -73,10 +74,7 @@
 }
 
 .blogTitles{
-  font-size: 30px;
   font-weight: 300;
-  padding:1vw;
-  margin:5vh;
 }
 
 
