@@ -23,7 +23,7 @@ export default function Home() {
           className={styles.NakaYou}
           src="/images/NakaYou.png"
           width={200}
-          height={200} onClick={() => { alert("．．．") }} />
+          height={200} onClick={() => { alert("僕のポートフォリオへようこそ！") }} />
       </div>
 
       <h1>NakaYou</h1>
