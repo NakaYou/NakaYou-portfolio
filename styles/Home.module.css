@@ -73,8 +73,8 @@
 }
 
 .blogTitles{
-  font-size: 5vh;
-  border: 0.1vh solid;
+  font-size: 30px;
+  font-weight: 300;
   padding:1vw;
   margin:5vh;
 }
