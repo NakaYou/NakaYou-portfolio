@@ -26,7 +26,7 @@ export default function Blog({ allPostsData }) {
                     <li className={styles.blogTitles} key={id}>
                         <div className={styles.date} >{date}</div>
                         <Link href={`/posts/${id}`}>
-                        <h1>{title}</h1>
+                        <h1>{id}</h1>
                         </Link>
                     </li>
                 ))}

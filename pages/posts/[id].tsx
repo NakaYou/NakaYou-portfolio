@@ -16,10 +16,10 @@ export default function Post({ postData }) {
   return (
     <div className={styles.page}>
       <Head>
-        <title>{postData.title}</title>
+        <title>{postData.id}</title>
       </Head>
       <Navbar />
-      <h1>{postData.title}</h1>
+      <h1>{postData.id}</h1>
       <br />
       {postData.date}
       <br />
