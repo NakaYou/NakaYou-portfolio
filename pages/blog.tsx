@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Navbar from './Navbar'
 import styles from '../styles/Home.module.css'
 import { getSortedPostsData } from '../lib/posts'
+import DisqusComments from '../components/disqusComments'
+
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData()
@@ -20,6 +22,7 @@ export default function Blog({ allPostsData }) {
                 <title>Blog</title>
                 <link rel="icon" href="/favicon.ico"></link>
             </Head>
+            <DisqusComments post="blog.tsx" />
             <Navbar />
             <ul className={styles.inline}>
                 {allPostsData.map(({ id,date, title }) => (

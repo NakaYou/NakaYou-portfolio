@@ -25,6 +25,7 @@ export default function Post({ postData }) {
       <br />
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       <Navbar />
+      
     </div>
 
   )
