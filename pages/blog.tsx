@@ -22,7 +22,6 @@ export default function Blog({ allPostsData }) {
                 <title>Blog</title>
                 <link rel="icon" href="/favicon.ico"></link>
             </Head>
-            <DisqusComments post="blog.tsx" />
             <Navbar />
             <ul className={styles.inline}>
                 {allPostsData.map(({ id,date, title }) => (
@@ -34,6 +33,7 @@ export default function Blog({ allPostsData }) {
                     </li>
                 ))}
             </ul>
+            <DisqusComments post="blog.tsx" />
         </div>
     )
 }
