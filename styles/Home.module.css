@@ -64,6 +64,7 @@
 .page ul {
   list-style: none;
   margin:0;
+  margin-bottom:100px;
   padding:0;
   text-align: center;
   animation: fadeIn 3s ease 0s 1 normal;
