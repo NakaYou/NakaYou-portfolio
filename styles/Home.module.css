@@ -74,10 +74,6 @@
   margin: 0 10px 0 0;
 }
 
-.blogTitles:hover{
-  color:cyan;
-}
-
 .blogTitles{
   font-weight: 300;
 }
