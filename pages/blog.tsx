@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Navbar from './Navbar'
+import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import DisqusComments from '../components/disqusComments'

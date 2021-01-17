@@ -1,5 +1,5 @@
 import styles from '../../styles/Home.module.css'
-import Navbar from '../Navbar'
+import Navbar from '../../components/Navbar'
 import Head from 'next/head'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 
