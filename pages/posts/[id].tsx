@@ -2,6 +2,7 @@ import styles from '../../styles/Home.module.css'
 import Navbar from '../../components/Navbar'
 import Head from 'next/head'
 import { getAllPostIds, getPostData } from '../../lib/posts'
+import DisqusComments from '../../components/disqusComments'
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
@@ -24,8 +25,8 @@ export default function Post({ postData }) {
       {postData.date}
       <br />
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <DisqusComments post="blog.tsx" />
       <Navbar />
-      
     </div>
 
   )
