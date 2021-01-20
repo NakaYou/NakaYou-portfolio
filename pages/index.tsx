@@ -3,6 +3,15 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 
+function Achievements(){
+  return(
+    <div>
+      <h1>Achievements</h1>
+      <p>nothing</p>
+    </div>
+  )
+}
+
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -23,6 +32,7 @@ export default function Home() {
       <p>どうもこんにちは，なかようといいます．</p>
       <p>あっという間に二年生になってしまいますが僕は入学当初から何も変わってない気がしています．</p>
       <p>のんびりしていられないですね．</p>
+      <Achievements />
     </div>
   )
 }
