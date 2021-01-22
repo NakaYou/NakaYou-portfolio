@@ -25,6 +25,7 @@
   min-height: 100vh;
   text-align: center;
   color:white;
+  align-items: center;
 }
 
 .page h1{
@@ -87,4 +88,10 @@
 
 .date{
   margin-top: 50px;
+}
+
+.tweet{
+  margin:20px;
+  padding:20px;
+
 }
