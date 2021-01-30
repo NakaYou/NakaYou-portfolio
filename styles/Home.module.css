@@ -29,15 +29,24 @@
   margin-top: 50px;
   font-weight: 200;
   color:limegreen;
+  transition:1s all;
 }
 
 .page h1:hover{
   color:brown;
+  transform:scale(1.2,1.2);
+  transition:1s all;
 }
 
 .NakaYou{
   margin-top: 100px;
   animation: fadeIn 1s ease 0s 1 normal;
+  transition:1s all;
+}
+
+.NakaYou:hover{
+  transform:scale(1.2,1.2);
+  transition:1s all;
 }
 
 .links{
@@ -47,11 +56,14 @@
   margin:0.5vw;
   padding: 1vw;
   color:limegreen;
+  transition:1s all;
 }
 
 .links:hover{
   text-decoration: none;
   color:brown;
+  transform:scale(1.2,1.2);
+  transition:1s all;
 }
 .navbar{
   margin-top: 5vh;
@@ -77,11 +89,6 @@
   font-weight: 300;
 }
 
-
-
-.blog{
-}
-
 .date{
   margin-top: 50px;
 }
@@ -89,4 +96,11 @@
 
 .photo{
   width:10vw;
+}
+
+.share{
+  font-weight: 300;
+  text-decoration:underline;
+  margin-top: 20px;
+  color: limegreen;
 }

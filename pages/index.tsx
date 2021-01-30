@@ -32,6 +32,11 @@ export default function Home() {
       <p>どうもこんにちは，なかようといいます．</p>
       <p>あっという間に二年生になってしまいますが僕は入学当初から何も変わってない気がしています．</p>
       <p>のんびりしていられないですね．</p>
+
+      <h1>
+      <a href="https://twitter.com/compose/tweet?text=なかようのサイトを見ました！ nakayou.vercel.app">Twitterでシェア</a>
+      </h1>
+
       <Achievements />
     </div>
   )
