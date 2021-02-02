@@ -22,7 +22,6 @@ export default function Home() {
       <Navbar />
       <div className={styles.NakaYou}>
         <Image
-          className={styles.NakaYou}
           src="/images/NakaYou.png"
           width={200}
           height={200} onClick={() => { alert("僕のポートフォリオへようこそ！") }} />
@@ -32,11 +31,9 @@ export default function Home() {
       <p>どうもこんにちは，なかようといいます．</p>
       <p>あっという間に二年生になってしまいますが僕は入学当初から何も変わってない気がしています．</p>
       <p>のんびりしていられないですね．</p>
-
       <h1>
       <a href="https://twitter.com/compose/tweet?text=なかようのサイトを見ました！ nakayou.vercel.app">Twitterでシェア</a>
       </h1>
-
       <Achievements />
     </div>
   )
