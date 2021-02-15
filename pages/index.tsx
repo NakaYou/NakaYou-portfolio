@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
+import react, { useState } from 'react'
 
 function Achievements(){
   return(
@@ -13,6 +14,7 @@ function Achievements(){
 }
 
 export default function Home() {
+  const[nakayou,setimage] = useState(true);
   return (
     <div className={styles.page}>
       <Head>
@@ -22,9 +24,9 @@ export default function Home() {
       <Navbar />
       <div className={styles.NakaYou}>
         <Image
-          src="/images/NakaYou.png"
+          src={nakayou?"/images/NakaYou.png":"/images/NakaYou2.png"}
           width={200}
-          height={200} onClick={() => { alert("僕のポートフォリオへようこそ！") }} />
+          height={200} onClick={() => {setimage(!nakayou)}} />
       </div>
 
       <h1>NakaYou</h1>
