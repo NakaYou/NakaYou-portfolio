@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
-import react, { useState } from 'react'
+import { useState } from 'react'
 
 function Achievements(){
   return(
