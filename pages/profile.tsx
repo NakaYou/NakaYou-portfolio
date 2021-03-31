@@ -15,7 +15,7 @@ export default function Profile() {
                 <p>Name:NakaYou</p>
                 <p>Age:16</p>
                 <p>School:Kosen</p>
-                <p>Grade:1st</p>
+                <p>Grade:2nd</p>
                 <p>Depertment:S</p>
                 <p>Club:ComputerClub</p>
                 <h1>Experimence</h1>
@@ -23,7 +23,7 @@ export default function Profile() {
                 <p>JavaScript/TypeScript/React/</p>
                 <p>Next.js/Unity/Git/GitHub:Little</p>
                 <h1>Studying</h1>
-                <p>Basic information engineer/AWS/etc:Much</p>
+                <p>Basic information engineer/Competitive programming/Machine Learning</p>
             </div>
         </div>
     )
