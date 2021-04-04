@@ -4,6 +4,8 @@ body {
   margin:0;
   width:100vw;
   overflow-x: hidden;
+  color:rgb(110, 210, 255);
+  background-color:rgb(20, 30, 50);
 }
 
 a {
