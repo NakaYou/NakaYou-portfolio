@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
 import { getSortedPostsData } from '../lib/posts'
-import DisqusComments from '../components/disqusComments'
 
 
 export async function getStaticProps() {
@@ -33,7 +32,6 @@ export default function Blog({ allPostsData }) {
                     </li>
                 ))}
             </ul>
-            <DisqusComments post="blog.tsx" />
         </div>
     )
 }
