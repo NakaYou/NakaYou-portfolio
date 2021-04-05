@@ -4,26 +4,33 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import { useState } from 'react'
 
+function Products(props){
+  return(
+    <div className={styles.NakaYou}>
+        <a href={props.url}>
+          <Image src={props.img}
+            width={200} height={200} className={styles.img} />
+          <h1>{props.name}</h1>
+          <p>{props.description}</p>
+        </a>
+      </div>
+  )
+}
+
 function Achievements() {
   return (
     <div>
       <h1>Products</h1>
-      <div className={styles.NakaYou}>
-        <a href={"https://hit-and-blow-delta.vercel.app"}>
-          <Image src={"/images/HB.png"}
-            width={200} height={200} className={styles.img} />
-          <h1>Hit&Blow</h1>
-          <p>reactでhit&blowを作りました</p>
-        </a>
-      </div>
-      <div className={styles.NakaYou}>
-        <a href={"https://ten-second-challenge.vercel.app"}>
-          <Image src={"/images/Sec10.png"}
-            width={200} height={200} className={styles.img}/>
-            <h1>10sec Challenge</h1>
-            <p>reactで10秒連打するゲームを作りました</p>
-        </a>
-      </div>
+      <Products url={"https://hit-and-blow-delta.vercel.app"} 
+      img={"/images/HB.png"} 
+      name={"Hit&Blow"} 
+      description={"reactでhit&blowを作りました"} />
+
+      <Products url={"https://ten-second-challenge.vercel.app"}
+      img={"/images/Sec10.png"}
+      name={"10sec Challenge"}
+      description={"reactで10秒連打するゲームを作りました"} />
+      
     </div>
   )
 }
