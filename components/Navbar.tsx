@@ -14,7 +14,7 @@ export default function Navbar() {
             <Link href="/blog/">
                 <a className={styles.links}>Blog</a>
             </Link>
-            <a className={styles.links} href="https://twitter.com/NakaYou_JK">Twitter</a>
+            <a className={styles.links} href="https://twitter.com/NakaY0u">Twitter</a>
             <a className={styles.links} href="https://github.com/NakaYou">GitHub</a>
             <a className={styles.links} href="https://atcoder.jp/users/nakayou">AtCoder</a>
             <a className={styles.links} href="https://marshmallow-qa.com/nakayou_jk">MarshMallow</a>
