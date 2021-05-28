@@ -21,6 +21,17 @@ function Achievements() {
   return (
     <div>
       <h1>Products</h1>
+
+      <Products url={"https://css-property-page.vercel.app/"} 
+      img={"/images/CSSPP.png"} 
+      name={"CSS-Properety-Page"} 
+      description={"技育CAMPハッカソンvol3での成果物です"} />
+
+      <Products url={"https://github.com/NakaYou/Deveruit"} 
+      img={"/images/Deveruit.png"} 
+      name={"Deveruit"} 
+      description={"技育CAMPハッカソンvol2での成果物です"} />
+
       <Products url={"https://hit-and-blow-delta.vercel.app"} 
       img={"/images/HB.png"} 
       name={"Hit&Blow"} 
@@ -50,7 +61,7 @@ export default function Home() {
           width={200} className={styles.img}
           height={200} onClick={() => { setimage(!nakayou) }} />
       </div>
-
+      <p>The gopher was designed by Renée French</p>
       <h1>NakaYou</h1>
       <p>どうもこんにちは，なかようといいます．</p>
       <p>あっという間に二年生になってしまいますが僕は入学当初から何も変わってない気がしています．</p>

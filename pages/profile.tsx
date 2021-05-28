@@ -18,12 +18,10 @@ export default function Profile() {
                 <p>Grade:2nd</p>
                 <p>Depertment:S</p>
                 <p>Club:ComputerClub</p>
-                <h1>Experimence</h1>
-                <p>C/C++/Java/Python/HTML/CSS/</p>
-                <p>JavaScript/TypeScript/React/</p>
-                <p>Next.js/Unity/Git/GitHub:Little</p>
+                <h1>Skill</h1>
+                <p>React.js/TypeScript/Next.js/Recoil</p>
                 <h1>Studying</h1>
-                <p>Basic information engineer/Competitive programming/Machine Learning</p>
+                <p>Golang</p>
             </div>
         </div>
     )
