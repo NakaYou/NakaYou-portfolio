@@ -13,15 +13,17 @@ export default function Profile() {
                 <Navbar />
                 <h1>Profile</h1>
                 <p>Name:NakaYou</p>
-                <p>Age:16</p>
+                <p>Age:17</p>
                 <p>School:Kosen</p>
                 <p>Grade:2nd</p>
                 <p>Depertment:S</p>
-                <p>Club:ComputerClub</p>
-                <h1>Skill</h1>
-                <p>React.js/TypeScript/Next.js/Recoil</p>
-                <h1>Studying</h1>
-                <p>Golang</p>
+                <h1>Skills</h1>
+                <h2>Languages</h2>
+                <p>Go/TypeScript/C/C++</p>
+                <h2>FrameWorks</h2>
+                <p>React/Next.js/TailwindCSS</p>
+                <h2>Enviroments</h2>
+                <p>Visual Studio Code/GoLand/WebStorm/Windows/Docker/git</p>
             </div>
         </div>
     )
