@@ -17,13 +17,12 @@ export default function Profile() {
                 <p>School:Kosen</p>
                 <p>Grade:2nd</p>
                 <p>Depertment:S</p>
-                <h1>Skills</h1>
-                <h2>Languages</h2>
+                <h1>Languages</h1>
                 <p>Go/TypeScript/C/C++</p>
-                <h2>FrameWorks</h2>
+                <h1>FrameWorks</h1>
                 <p>React/Next.js/TailwindCSS</p>
-                <h2>Enviroments</h2>
-                <p>Visual Studio Code/GoLand/WebStorm/Windows/Docker/git</p>
+                <h1>Enviroments</h1>
+                <p>Visual Studio Code/GoLand/WebStorm/Windows/Docker/Git</p>
             </div>
         </div>
     )
